@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  vertical-align: baseline;
+  font: inherit; }
+
+html {
+  scrollbar-width: none; }
+
+body {
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500; }
+
+#welcome img,
+#news img {
+  width: 100%; }
+
+.padd-5p {
+  padding: 5%; }
+.padd-0-top {
+  padding-top: 0; }
+.padd-0-btn {
+  padding-bottom: 0; }
+
+.flex-row {
+  display: flex;
+  flex-direction: row; }
+.flex-column {
+  display: flex;
+  flex-direction: column; }
+.flex-grow {
+  flex-grow: 1; }
+.flex-same-size > * {
+  flex: 1 1 0px; }
+
+.gap-4r {
+  gap: 4rem; }
+.gap-1r {
+  gap: 1rem; }
+
+/*# sourceMappingURL=index.css.map */
